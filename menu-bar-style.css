@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,400&family=Roboto+Slab&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu-bar {
+    margin: 0 auto;
+    width: 100%;
+}
+.navi, .sub {
+    Position: relative;
+    font-family: 'Roboto Slab', 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navi li {
+    background-color: #EC0101;
+    height: 50px;
+    line-height: 50px;
+    width: 227px;
+    text-align: center;
+}
+.navi li a {
+    display: block;
+    text-decoration: none;
+    font-weight: 700px;
+    color: white;
+}
+.navi li a:hover {
+    color: #e9edc9;
+    background-color: #d00000;
+}
+.navi > li {
+    border-left: 1px solid whitesmoke;
+    float: left;
+}
+.navi > li:hover .sub {
+    display: block;
+}
+.sub {
+    display: none;
+}
+.sub li a {
+    font-size: 13px;
+    overflow-wrap: break-word;
+    color: black;
+}
